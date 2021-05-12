@@ -28,6 +28,9 @@ https://unicode-table.com/ru/2153/
 1/3 ⅓
 1/4 ¼
 3/4 ¾
+
+Нужно добавить римские цифры
+https://unicode-table.com/ru/blocks/number-forms/                           
 '''    
 
 '''
@@ -74,7 +77,7 @@ print('--------------------------------------------------')
 in_data = []
 out_data = []
 list_ref = []
-# Чтение из файла 1 
+# Чтение из файла 
 # file.read().splitlines()
 with open(INPUT_FILE + EXT, "r", encoding="utf-8") as f:
     for line in f:
